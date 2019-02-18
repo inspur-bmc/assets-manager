@@ -6,7 +6,7 @@ if HAVE_SYSTEMD
 systemdsystemunit_DATA = assets-manager.service
 endif
 
-assets-manager_SOURCES = \
+assets_manager_SOURCES = \
 	main.cpp  \
 	xyz/openbmc_project/Assets/RAM/server.cpp \
 	xyz/openbmc_project/Assets/CPU/server.cpp
@@ -17,11 +17,11 @@ BUILT_SOURCES = \
 		xyz/openbmc_project/Assets/CPU/server.hpp \
 		xyz/openbmc_project/Assets/CPU/server.cpp
 
-assets-manager_LDADD = \
+assets_manager_LDADD = \
 		      $(SDBUSPLUS_LIBS) \
 		      $(SDEVENTPLUS_LIBS)
 
-assets-manager_CXXFLAGS =  \
+assets_manager_CXXFLAGS =  \
 		      $(SDBUSPLUS_CFLAGS) \
 		      $(SDEVENTPLUS_CFLAGS)
 

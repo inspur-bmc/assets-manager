@@ -1,4 +1,5 @@
 #Initialization
+AC_PREREQ([2.69])
 AC_INIT([assets-manager], [1.0], [https://github.com/inspur-bmc/assets-manager/issues])
 AC_LANG([C++])
 AC_CONFIG_HEADERS([config.h])
