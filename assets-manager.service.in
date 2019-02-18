@@ -1,0 +1,10 @@
+[Unit]
+Description=Inspur Assets Daemon
+After=systemd-modules-load.service
+
+[Service]
+Restart=always
+ExecStart=@sbindir@/inspur-assets
+
+[Install]
+WantedBy=@SYSTEMD_TARGET@

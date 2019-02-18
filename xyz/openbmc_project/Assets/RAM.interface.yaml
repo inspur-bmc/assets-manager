@@ -1,0 +1,44 @@
+description: >
+    Implement to provide RAM
+
+properties:
+    - name: Position
+      type: string
+      description: >
+          the random-access memory position
+    - name: IsPresence
+      type: boolean
+      description: >
+          the random-access memory is presence
+    - name: Capacity
+      type: int16
+      description: >
+          the random-access memory capacity 
+    - name: Type
+      type: string
+      description: >
+          the random-access memory type
+    - name: MHz
+      type: int64
+      description: >
+          the random-access memory MHz
+    - name: Vendor
+      type: string
+      description: >
+          the random-access memory vendor  
+    - name: SerialNumber
+      type: string
+      description: >
+          the random-access memory serial number
+    - name: MinVoltage
+      type: double
+      description: >
+          the random-access memory min voltage
+    - name: Rank
+      type: int16
+      description: >
+          the random-access memory rank
+    - name: Count
+      type: int64
+      description: >
+          the random-access memory count                      

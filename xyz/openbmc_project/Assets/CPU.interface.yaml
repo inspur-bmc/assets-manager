@@ -1,0 +1,36 @@
+description: >
+    Implement to provide CPU	
+
+properties:
+    - name: Model
+      type: string
+      description: >
+          the cpu model
+    - name: IsPresence
+      type: boolean
+      description: >
+          the cpu is presence
+    - name: MHz
+      type: int64
+      description: >
+          the cpu MHz
+    - name: KernelCount
+      type: string
+      description: >
+          the cpu kernel count 
+    - name: TDP
+      type: int32
+      description: >
+          the cpu Thermal Design Power
+    - name: Level_1_Cache
+      type: int64
+      description: >
+          the cpu Level 1 cache
+    - name: Level_2_Cache
+      type: int64
+      description: >
+          the cpu Level 1 cache
+    - name: Level_3_cache
+      type: int64
+      description: >
+          the cpu Level 3 cache                 
