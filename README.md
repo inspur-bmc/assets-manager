@@ -16,7 +16,6 @@ just a build framework
 	
 	SYSTEMD_SERVICE_${PN} += "assets-manager.service"
 
-	inherit pkgconfig autotools
 	inherit pythonnative
 	inherit systemd
 
